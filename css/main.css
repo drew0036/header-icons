@@ -27,28 +27,31 @@ header {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  font-size: 2rem;
   padding: .5em 0;
   align-items: center;
 }
 
-ul {
+header ul {
   display: flex;
-  justify-content: space-around;
   flex-wrap: wrap;
   margin: 0;
-  padding: .4em 0;
+  padding: 0;
   list-style-type: none;
+  border: 1px solid #a63f38;
+}
+
+header li {
+  border: 1px solid #a63f38;
+  flex-basis: 33.333%;
 }
 
 a {
+  display: block;
   color: #fff;
-  background-color: #d05c2e;
   font-size: 1.125rem;
   text-decoration: none;
   text-align: center;
   align-items: center;
-  border: 1px solid #a63f38;
   padding: .4em 0;
   margin-left: auto;
   margin-right: auto;
